@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    text-decoration: none;
+}
+
+.welcome p {
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+.welcome a {
+    padding: 1rem;
+    color: rgb(0, 0, 0);
+}
+
+.welcome button {
+    width: 3rem;
+    height: 3rem;
+    background-color: rgb(43, 226, 165);
+}
+
+.welcome {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(0, 181, 145);
+}
+
+.calculator input {
+    display: flex;
+}
+
+.ddd {
+    display: inline-block;
+    background-color: rgb(34, 34, 34);
+    padding: 1rem;
+    text-align: center;
+}
+
+.calculator span {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.cen {
+    display: flex;
+    justify-content: center;
+}
+
+.d {
+    color: white;
+}
+
+img {
+    width: 49%;
+    display: inline-block;
+}
+
+a:hover {
+    background-color: rgb(0, 255, 64);
+    transition: 1s;
+}
+
+.imdiv {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.cppCode {
+    background-color: rgb(44, 44, 44);
+    display: inline-block;
+    color: white;
+    padding: 1rem;
+}
+
+h2 {
+    background-color: rgba(56, 154, 110, 0.507);
+}
