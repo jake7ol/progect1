@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="welcome">
+        <p>Welcome</p>
+        <span>
+            <span>
+                <a href="#A">C++</a>
+                <a href="#B">JS</a>
+                <a href="#C">CSS</a>
+                <a href="#D">HTML</a>
+            </span>
+            <button>&#9776</button>
+        </span>
+    </div>
+
+    <div class="main">
+        <div style="text-align: center;">
+            <h2 id="A">C++</h2>
+        </div>
+        <div style="display: flex; justify-content: center;">
+            <div class="cppCode">
+                <p>#include &ltiostream&gt</p>
+                <p>using namespace std;</p>
+                <p>void main() {</p>
+                <p>cout &lt&lt "hello world" &lt&lt endl;</p>
+                <p>}</p>
+            </div>
+        </div>
+
+
+
+        <div class="calculator">
+            <div style="text-align: center;">
+                <h2>JavaScript</h2>
+            </div>
+            <div class="imdiv">
+                <img src="img1.png" alt="Image">
+                <img src="img2.png" alt="Image">
+            </div>
+
+            <div class="cen">
+                <div class="ddd">
+                    <input class="num1" type="number" placeholder="number 1">
+                    <span>
+                        <button class="pl" style="background-color: rgb(0, 106, 155);">+</button>
+                        <button class="min" style="background-color: rgb(0, 106, 155);">-</button>
+                        <button class="PP" style="background-color: rgb(0, 106, 155);">x</button>
+                        <button class="MM" style="background-color: rgb(0, 106, 155);">:</button>
+                    </span>
+                    <input class="num2" type="number" placeholder="number 2">
+                    <button class="bb" style="margin-top: 1rem;">count</button>
+                    <p id="B" class="d">Result: </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
